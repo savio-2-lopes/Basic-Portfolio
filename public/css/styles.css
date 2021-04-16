@@ -149,8 +149,8 @@ footer nav .info-contact li a {
 }
 
 footer nav .social-network {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   border-top: 1px solid var(--row-light);
   margin-top: 20px;
   margin-bottom: 50px;
@@ -245,9 +245,9 @@ main .column section ul li strong {
   footer nav .social-network {
     display: flex;
     justify-content: center;
-    border-top: 1px solid var(--row-light);
+    /* border-top: 1px solid var(--row-light);
     margin-top: 20px;
     margin-bottom: 50px;
-    padding-top: 50px;
+    padding-top: 50px; */
   }
 }
