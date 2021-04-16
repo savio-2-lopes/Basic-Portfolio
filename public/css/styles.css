@@ -140,6 +140,7 @@ footer nav .info-contact {
 }
 
 footer nav .info-contact li {
+  margin-bottom: 15px;
 }
 
 footer nav .info-contact li a {
@@ -149,6 +150,9 @@ footer nav .social-network {
   display: flex;
   justify-content: center;
   border-top: 1px solid rgb(255 255 255 / 20%);
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 50px;
 }
 
 footer nav .social-network li {
