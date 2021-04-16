@@ -117,12 +117,55 @@ header .column ul li a {
 /* Rodapé */
 
 footer {
+  background-color: var(--blue);
 }
 
 footer .container {
 }
 
 footer nav {
+}
+
+footer nav ul {
+}
+
+footer nav ul li {
+}
+
+footer nav ul li a {
+  color: white;
+}
+
+footer nav .info-contact {
+}
+
+footer nav .info-contact li {
+}
+
+footer nav .info-contact li a {
+}
+
+footer nav .social-network {
+  display: flex;
+  justify-content: center;
+}
+
+footer nav .social-network li {
+  margin: 0 14px;
+  text-align: center;
+}
+
+footer nav .social-network li a {
+  text-align: center;
+}
+
+footer nav .social-network li a img {
+  width: 40px;
+  text-align: center;
+}
+
+footer nav .social-network li a p {
+  width: 40px;
 }
 
 /* Página principal */
