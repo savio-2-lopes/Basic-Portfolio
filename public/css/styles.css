@@ -30,6 +30,7 @@ main {
   --gray-light: #d4e9ff;
   --blue: #26619c;
   --black: #000;
+  --row-light: rgb(255 255 255 / 20%);
   --font-family: "Open Sans", sans-serif;
 }
 
@@ -150,7 +151,7 @@ footer nav .info-contact li a {
 footer nav .social-network {
   display: flex;
   justify-content: center;
-  border-top: 1px solid rgb(255 255 255 / 20%);
+  border-top: 1px solid var(--row-light);
   margin-top: 20px;
   margin-bottom: 50px;
   padding-top: 50px;
@@ -229,4 +230,24 @@ main .column section ul li strong {
   margin-top: 5px;
   margin-bottom: 10px;
   display: inline-block;
+}
+
+/* Responsividade */
+
+@media only screen and (min-width: 768px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  footer nav .social-network {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid var(--row-light);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+  }
 }
