@@ -227,6 +227,7 @@ label span {
 .active-dark-mode:checked ~ .dark-mode {
   --blue: #000;
   --white: #fff;
+  --black: #d4e9ff;
 }
 
 .active-dark-mode:checked ~ .dark-mode header {
