@@ -52,7 +52,7 @@ body {
 
 header {
   background-color: var(--blue);
-  padding-top: 30px 30px 0;
+  padding: 30px 30px 0;
 }
 
 header .container {
@@ -147,15 +147,15 @@ main .column {
 }
 
 main .column section {
-  border: 1px solid var(--gray-light);
-  margin-bottom: 20px;
+  border-bottom: 1px solid var(--gray-light);
+  margin: 0 0 20px;
   min-height: 187px;
   color: var(--black);
 }
 
 main .column section h2 {
   font-size: 1.3rem;
-  margin-bottom: 15px;
+  margin: 0 0 15px;
 }
 
 main .column section p {
@@ -165,18 +165,15 @@ main .column section p {
 }
 
 main .column section ul li {
-  margin-bottom: 12px;
+  margin: 0 0 12px;
 }
-
 main .column section ul li h3 {
   font-size: 1.1rem;
 }
-
 main .column section ul li strong {
   font-size: 0.9rem;
   font-weight: 500;
-  margin-top: 5px;
-  margin-bottom: 10px;
+  margin: 5px 0 10px;
   display: inline-block;
 }
 
