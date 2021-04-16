@@ -1,4 +1,5 @@
 /* Corpo */
+
 html,
 body,
 figure,
@@ -21,6 +22,14 @@ main {
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+}
+
+:root {
+  --white: #fff;
+  --gray: #636363;
+  --gray-light: #d4e9ff;
+  --blue: #26619c;
+  --black: #000;
 }
 
 .container {
@@ -57,7 +66,7 @@ header {
 }
 
 header .container {
-  background-color: white;
+  background-color: var(--white);
 }
 
 header .row {
@@ -84,26 +93,35 @@ header .column img {
 }
 
 header .column h1 {
+  font-size: 1.5rem;
 }
 
 header .column p {
+  font-size: 1rem;
+  color: var(--gray);
 }
 
 header .column ul {
+  margin-top: 16px;
 }
 
 header .column ul li {
+  margin-bottom: 12px;
 }
 
 header .column ul li a {
+  font-size: 1rem;
+  color: var(--black);
 }
 
 /* Rodapé */
 
 footer {
 }
+
 footer .container {
 }
+
 footer nav {
 }
 
@@ -111,27 +129,55 @@ footer nav {
 
 main {
 }
+
 main .container {
 }
+
 main .row {
 }
+
 main .column {
 }
+
 main .column-left {
 }
+
 main .column-right {
 }
+
 main .column section {
+  border: 1px solid var(--gray-light);
+  margin-bottom: 20px;
+  padding: 20px;
+  min-height: 187px;
 }
+
 main .column section h2 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
 }
+
 main .column section p {
+  font-size: 0.9rem;
+  color: var(--gray);
+  line-height: 1.5;
 }
+
 main .column section ul {
 }
+
 main .column section ul li {
+  margin-bottom: 12px;
 }
+
 main .column section ul li h3 {
+  font-size: 1.1rem;
 }
+
 main .column section ul li strong {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: inline-block;
 }
