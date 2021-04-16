@@ -24,18 +24,20 @@ main {
   text-decoration: none;
 }
 
-:root {
-  --white: #fff;
-  --gray: #636363;
-  --gray-light: #d4e9ff;
-  --blue: #26619c;
-  --black: #000;
-  --row-light: rgb(255 255 255 / 20%);
-  --font-family: "Open Sans", sans-serif;
-}
-
 .column {
   flex-basis: 49%;
+}
+
+:root {
+  --gray-light: #d4e9ff;
+  --blue: #26619c;
+  --white: #fff;
+  --gray: #636363;
+
+  --black: #000;
+  --dark-mode: #0e0e0e;
+  --row-light: rgb(255 255 255 / 20%);
+  --font-family: "Open Sans", sans-serif;
 }
 
 .hidden {
@@ -131,6 +133,11 @@ footer nav .social-network li {
 
 footer nav .social-network li a img {
   width: 40px;
+  transition: 0.2s;
+}
+
+footer nav .social-network li a:hover img {
+  transform: scale(1.2) translateY(-10px);
 }
 
 /* Página principal */
@@ -173,6 +180,86 @@ main .column section ul li strong {
   display: inline-block;
 }
 
+/* Dark mode */
+
+.active-dark-mode {
+  width: 50px;
+  height: 50px;
+  display: none;
+}
+
+header .container {
+  position: relative;
+}
+
+label {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 52px;
+  height: 30px;
+  background-color: var(--black);
+  border-radius: 20px;
+  padding: 5px 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+label span {
+  width: 20px;
+  height: 20px;
+  display: block;
+  background-color: var(--gray-light);
+  border-radius: 100%;
+  transition: all ease 0.3s;
+}
+
+.active-dark-mode:checked ~ .dark-mode label {
+  background: var(--gray-light);
+}
+
+.active-dark-mode:checked ~ .dark-mode label span {
+  background-color: var(--black);
+  transform: translateX(21px);
+  transition: all ease 0.3s;
+}
+
+.active-dark-mode:checked ~ .dark-mode {
+  --blue: #000;
+  --white: #fff;
+}
+
+.active-dark-mode:checked ~ .dark-mode header {
+  background-color: var(--blue);
+}
+.active-dark-mode:checked ~ .dark-mode header .container {
+  background-color: var(--dark-mode);
+}
+.active-dark-mode:checked ~ .dark-mode .container {
+  background-color: var(--dark-mode);
+}
+.active-dark-mode:checked ~ .dark-mode main {
+  background-color: var(--blue);
+}
+
+@keyframes aumentarLargura {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes aumentarAltura {
+  from {
+    height: 0;
+  }
+  to {
+    height: 100%;
+  }
+}
+
 /* Responsividade */
 
 @media only screen and (min-width: 768px) {
@@ -194,21 +281,46 @@ main .column section ul li strong {
     max-width: 250px;
     border-radius: 100%;
   }
-  header {
-    padding: 30px 0 0;
-  }
-  header .column-right {
-    text-align: left;
-  }
   .container {
     width: 100%;
     max-width: 1125px;
     margin: 0 auto;
     padding: 30px;
   }
+  header .column-right {
+    text-align: left;
+  }
   main .column section {
-    border: 1px solid var(--gray-light);
+    border: 2px solid transparent;
     padding: 20px;
+    position: relative;
+  }
+  main .column section span {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 2px solid transparent;
+  }
+  main .column section .high-rigth {
+    top: -2px;
+    left: -2px;
+    animation-name: aumentarLargura, aumentarAltura;
+    animation-duration: 1s, 1s;
+    animation-delay: 2s, 3s;
+    animation-fill-mode: forwards;
+    border-top-color: var(--gray-light);
+    border-right-color: var(--gray-light);
+  }
+  main .column section .down-left {
+    bottom: -2px;
+    right: -2px;
+    animation-name: aumentarLargura, aumentarAltura;
+    animation-duration: 1s, 1s;
+    animation-delay: 4s, 5s;
+    animation-fill-mode: forwards;
+    border-bottom-color: var(--gray-light);
+    border-bottom-color: var(--gray-light);
   }
   main .column {
     padding: 0;
