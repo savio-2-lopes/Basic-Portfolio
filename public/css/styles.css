@@ -3,6 +3,7 @@
 html,
 body,
 figure,
+img,
 div,
 input,
 textarea,
@@ -33,7 +34,6 @@ main {
   --blue: #26619c;
   --white: #fff;
   --gray: #636363;
-
   --black: #000;
   --dark-mode: #0e0e0e;
   --row-light: rgb(255 255 255 / 20%);
@@ -270,13 +270,12 @@ label span {
     align-items: flex-start;
     justify-content: space-between;
   }
-
   footer nav .social-network {
     display: flex;
     justify-content: center;
   }
   header {
-    padding-top: 30px;
+    padding: 30px 0 0;
   }
   header .column img {
     max-width: 250px;
@@ -303,7 +302,7 @@ label span {
     height: 0;
     border: 2px solid transparent;
   }
-  main .column section .high-rigth {
+  main .column section .high-right {
     top: -2px;
     left: -2px;
     animation-name: aumentarLargura, aumentarAltura;
@@ -321,7 +320,7 @@ label span {
     animation-delay: 4s, 5s;
     animation-fill-mode: forwards;
     border-bottom-color: var(--gray-light);
-    border-bottom-color: var(--gray-light);
+    border-left-color: var(--gray-light);
   }
   main .column {
     padding: 0;
