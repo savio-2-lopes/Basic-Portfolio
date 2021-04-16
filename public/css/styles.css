@@ -30,6 +30,7 @@ main {
   --gray-light: #d4e9ff;
   --blue: #26619c;
   --black: #000;
+  --font-family: "Open Sans", sans-serif;
 }
 
 .container {
@@ -55,13 +56,13 @@ main {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--font-family);
 }
 
 /* Header */
 
 header {
-  background-color: #26619c;
+  background-color: var(--blue);
   padding-top: 30px;
 }
 
@@ -133,7 +134,7 @@ footer nav ul li {
 }
 
 footer nav ul li a {
-  color: white;
+  color: var(--white);
 }
 
 footer nav .info-contact {
