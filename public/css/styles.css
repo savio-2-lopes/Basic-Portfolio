@@ -1,0 +1,104 @@
+/* Corpo */
+html,
+body,
+figure,
+div,
+input,
+textarea,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a,
+main {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1125px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+body {
+}
+
+/* Header */
+
+header {
+  background-color: #26619c;
+}
+header .container {
+  background-color: white;
+}
+header .row {
+}
+header .column {
+}
+header .column-left {
+}
+header .column-right {
+}
+header .column figure {
+}
+header .column img {
+  max-width: 250px;
+}
+header .column h1 {
+}
+header .column p {
+}
+header .column ul {
+}
+header .column ul li {
+}
+header .column ul li a {
+}
+
+/* Rodapé */
+
+footer {
+}
+footer .container {
+}
+footer nav {
+}
+
+/* Página principal */
+
+main {
+}
+main .container {
+}
+main .row {
+}
+main .column {
+}
+main .column-left {
+}
+main .column-right {
+}
+main .column section {
+}
+main .column section h2 {
+}
+main .column section p {
+}
+main .column section ul {
+}
+main .column section ul li {
+}
+main .column section ul li h3 {
+}
+main .column section ul li strong {
+}
