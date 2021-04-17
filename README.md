@@ -41,7 +41,7 @@
 
 <br>
 
-💡 Desenvolvido durante o Workshop disponibilizado durante o evento Start Carreira Dev, da [Kenzie Academy Brasil](https://kenzie.com.br/).
+💡 Desenvolvido durante o Workshop Start Carreira Dev disponibilizado pela [Kenzie Academy Brasil](https://kenzie.com.br/).
 
 <br>
 
