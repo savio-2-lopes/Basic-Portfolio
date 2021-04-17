@@ -26,7 +26,6 @@
 - [Sobre](#sobre-o-projeto)
 - [Layout](#layout)
 - [Deploy](#deploy)
-- [Como Executar](#executar)
 - [Tecnologias](#tecnologias)
 - [Licença](#licenca)
 - [Autor](#autor)
