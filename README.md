@@ -59,7 +59,7 @@
 ## 🎨 Layout
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="cv" title="#cv" src="./public/01.gif" width="700px">
+  <img alt="cv" title="#cv" src="./public/01.gif" width="800px">
 </p>
 
 <br>
