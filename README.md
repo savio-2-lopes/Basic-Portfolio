@@ -2,9 +2,6 @@
   <img alt="cv" title="#cv" src="./public/01.gif" width="700px">
 </h3>
 
-<p align="center"> 💬 <strong>Currículo Web</strong> 🚧
- </p>
-  
 <br>
 
 <p align="center">
