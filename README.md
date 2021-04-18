@@ -36,8 +36,6 @@
 
 🚀 A aplicação consiste em um curriculo web, possuindo opção de Dark Mode.
 
-<br>
-
 💡 Desenvolvido durante o Workshop Start Carreira Dev disponibilizado pela [Kenzie Academy Brasil](https://kenzie.com.br/).
 
 <br>
@@ -47,8 +45,6 @@
 ## ⚡ Deploy
 
 🎲 Segue abaixo o link do Deploy da Aplicação
-
-<br><br>
 
 🔗 [Deploy da Aplicação](https://savio-2-lopes.github.io/CV-website/).
 
