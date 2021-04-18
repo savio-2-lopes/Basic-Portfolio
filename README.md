@@ -20,7 +20,7 @@
 
 ## :pushpin: Índice
 
-- [Sobre](#sobre-o-projeto)
+- [Sobre](#sobre)
 - [Layout](#layout)
 - [Deploy](#deploy)
 - [Tecnologias](#tecnologias)
@@ -30,7 +30,7 @@
 
 <br>
 
-<a id="sobre-o-projeto"></a>
+<a id="sobre"></a>
 
 ## 💻 Sobre o projeto
 
@@ -47,7 +47,9 @@
 ## ⚡ Deploy
 
 🎲 Segue abaixo o link do Deploy da Aplicação
+
 <br><br>
+
 🔗 [Deploy da Aplicação](https://savio-2-lopes.github.io/CV-website/).
 
 <br>
