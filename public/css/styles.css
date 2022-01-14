@@ -271,9 +271,11 @@ label span {
     display: flex;
     justify-content: center;
   }
+
   header {
     padding: 30px 0 0;
   }
+
   header .column img {
     max-width: 250px;
     border-radius: 100%;
@@ -309,6 +311,7 @@ label span {
     border-top-color: var(--gray-light);
     border-right-color: var(--gray-light);
   }
+
   main .column section .down-left {
     bottom: -2px;
     right: -2px;
